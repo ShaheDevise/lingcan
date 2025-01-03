@@ -39,6 +39,7 @@ class MainController extends Controller
         $product = Product::find($id);
         return view('frontend.single_view', compact('product'));
     }
+    
 
     // this page will show cart blade
     public function cart()
